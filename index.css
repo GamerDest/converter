@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+    
+}
+header{
+    background-color: #6943FF;
+    padding: 33px;
+    color: #fff;
+    align-items: center;
+}
+header h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+#header-el {
+    text-align: center;
+}
+input{
+    width: 117px;
+    height: 83px;
+    font-size: 58px;
+    text-align: center;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #6943FF;
+    font-weight: 800;
+    margin: auto;
+    display: flex;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    background-color:#fff;
+    color: #3D3D3D;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.main{
+    background-color: #F4F4F4;
+    margin: 0px;
+    padding: 0px;
+    padding: 20px;
+}
+.conv{
+    background-color: #fff;
+    padding: 20px 30px;
+    margin: 20px 10px;
+    border-radius: 5px;
+}
+.conv h2{
+    font-size: 20px;
+    color: #5A537B;
+    font-weight: 600;
+    text-align: center;
+}
+.conv p{
+    font-size: 14px;
+    color: #353535;
+    font-weight: 400;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
