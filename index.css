@@ -50,12 +50,17 @@ button{
     margin: 0px;
     padding: 0px;
     padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
 }
 .conv{
     background-color: #fff;
     padding: 20px 30px;
-    margin: 20px 10px;
     border-radius: 5px;
+    max-width: 700px;
+    margin: 20px auto;
 }
 .conv h2{
     font-size: 20px;
