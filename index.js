@@ -24,8 +24,8 @@ function easter(num){
     if (num == 21){
         headerEl.innerHTML = `<h2>What's Nine Plus Ten?</h2><p>You found EASTER-EGG🎉</p>`
     } else if (num == 42){
-        headerEl.innerHTML = `<h3>Life, The universe, Everything.</h3><p>You found an EASTER-EGG🎉</p>`
+        headerEl.innerHTML = `<h2>Life, The universe, Everything.</h2><p>You found an EASTER-EGG🎉</p>`
     }else if (num == 69){
-        headerEl.innerHTML = `<h3>Haha... funny number</h3><p>You found an EASTER-EGG🎉</p>`
+        headerEl.innerHTML = `<h2>Haha... funny number</h2><p>You found an EASTER-EGG🎉</p>`
     }
 }
