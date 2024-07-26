@@ -22,20 +22,20 @@ function convert(value){
 
 function easter(num){
     if (num == 21){
-        headerEl.innerHTML = `<h2>What's Nine Plus Ten?</h2><p>You found EASTER-EGG🎉</p>`
+        headerEl.innerHTML = `<h2>What's Nine Plus Ten?</h2><p>You found an EASTER-EGG🎉</p>`
     } else if (num == 42){
         headerEl.innerHTML = `<h2>Life, The universe, Everything.</h2><p>You found an EASTER-EGG🎉</p>`
     }else if (num == 69){
-        headerEl.innerHTML = `<h2>Haha... funny number</h2><p>You found an EASTER-EGG🎉</p>`
+        headerEl.innerHTML = `<h2>Haha... funny number</h2><p>You found an an EASTER-EGG🎉</p>`
     }else if (num == 34){
-        headerEl.innerHTML = `<h2>If it exists...</h2><p>You found an EASTER-EGG🎉</p>`
+        headerEl.innerHTML = `<h2>If it exists...</h2><p>You found an an EASTER-EGG🎉</p>`
     }else if (num == 666){
-        headerEl.innerHTML = `<h2>Unholly spirit...</h2><p>You found an EASTER-EGG🎉</p>`
+        headerEl.innerHTML = `<h2>Unholly spirit...</h2><p>You found an an EASTER-EGG🎉</p>`
     }else if (num == 58008){
-        headerEl.innerHTML = `<h2>Read that backwards</h2><p>You found an EASTER-EGG🎉</p>`
+        headerEl.innerHTML = `<h2>Read that backwards</h2><p>You found an an EASTER-EGG🎉</p>`
     }else if (num == 3.14){
-        headerEl.innerHTML = `<h2>π π π π π π π π</h2><p>You found an EASTER-EGG🎉</p>`
+        headerEl.innerHTML = `<h2>π π π π π π π π</h2><p>You found an an EASTER-EGG🎉</p>`
     }else if (num == 420){
-        headerEl.innerHTML = `<h2>SnoopDog...</h2><p>You found an EASTER-EGG🎉</p>`
+        headerEl.innerHTML = `<h2>SnoopDog...</h2><p>You found an an EASTER-EGG🎉</p>`
     }
 }
